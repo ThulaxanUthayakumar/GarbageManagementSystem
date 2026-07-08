@@ -1,0 +1,23 @@
+## ---------- Backend (.NET) ----------
+backend/**/bin/
+backend/**/obj/
+backend/**/wwwroot/uploads/*
+!backend/**/wwwroot/uploads/**/.gitkeep
+*.user
+*.suo
+.vs/
+appsettings.Production.json
+
+## ---------- Frontend (Node / Vite) ----------
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
+frontend/.env.local
+
+## ---------- OS / Editor ----------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
