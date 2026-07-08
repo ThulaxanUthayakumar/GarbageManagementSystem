@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## ---------- Backend (.NET) ----------
 backend/**/bin/
 backend/**/obj/
@@ -21,3 +22,29 @@ Thumbs.db
 .idea/
 .vscode/*
 !.vscode/extensions.json
+=======
+# Build output
+bin/
+obj/
+publish/
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+
+# Logs
+Logs/
+*.log
+
+# Frontend (Phase 7)
+node_modules/
+dist/
+.env
+.env.local
+
+# Local-only configuration overrides
+appsettings.*.Local.json
+>>>>>>> 787ac9f7e7fcec5ad329452ea29ac1126972c963
